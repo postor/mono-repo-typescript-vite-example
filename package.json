@@ -1,0 +1,23 @@
+{
+  "name": "test-mono-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "workspace-main",
+    "workspace-other"
+  ],
+  "scripts": {
+    "build": "yarn workspace workspace-main build",
+    "start": "yarn workspace workspace-main dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "workspace-main/src/*",
+        "workspace-other/src/*"
+      ]
+    }
+  },
+  "references": [
+    { "path": "workspace-main" },
+    { "path": "workspace-other" }
+  ]
+}
